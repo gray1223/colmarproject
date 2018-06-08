@@ -9,6 +9,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
 }
 
 nav  {
@@ -54,13 +56,33 @@ nav li:hover {
 }
 
 .container {
-
+  width: 100%;
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 64px;
 }
 
 .title-img-container {
   width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.title-img-container img {
 }
 
 .jumbotron {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.jumbotron-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+
 }
