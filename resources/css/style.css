@@ -4,10 +4,11 @@ html {
 }
 
 header {
-  height: 4rem;
+  height: 64px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav  {
@@ -29,14 +30,29 @@ nav li:hover {
   cursor: pointer;
 }
 .header-title-logo {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
+  height: 32px;
 }
 
 .header-title-logo img {
-  width: 3rem;
+  width: 48px;
+  display: flex;
+  margin-left: 24px;
 }
+
+#first-word {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#second-word {
+  font-size: 2rem;
+  color: #d8d8d8;
+  font-weight: 300;
+}
+
 .container {
 
 }
