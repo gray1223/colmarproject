@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 5%;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li:hover {
+  color: darkred;
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+.header-title-logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-title-logo img {
+  width: 3rem;
+}
+.container {
+
+}
+
+.title-img-container {
+  width: 60%;
+}
+
+.jumbotron {
+  width: 40%;
+}
